@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Te lo cambio",
+    "description": "EvaStore Pro - Complete React Native template for Shopify store",
+    "slug": "telocambio",
+    "scheme": "evastore",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#074b75",
+    "icon": "./assets/icons/app.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.telocambioapp2.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.telocambioapp.app",
+      "versionCode": 5
+    },
+    "version": "1.0.1",
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
+    }
+  }
+}

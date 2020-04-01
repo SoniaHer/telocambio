@@ -1,0 +1,58 @@
+/**
+ * Created by InspireUI on 20/12/2016.
+ *
+ * @format
+ */
+
+import { Dimensions } from "react-native";
+
+const Constants = {
+  nameStore: "Te lo cambio",
+  RTL: false, // default to set redux. Only use first time
+  useReactotron: true,
+  Language: "Spanish", // Arabic, English. Default to set redux. Only use first time
+  fontFamily: "HelveticaNeue-Light",
+  fontFamilyBold: "HelveticaNeue-Light",
+  fontHeader: "Helvetica Neue",
+  fontHeaderAndroid: "Helvetica Neue",
+  isDefaultStore: false,
+  EmitCode: {
+    Toast: "toast",
+  },
+  Dimension: {
+    ScreenWidth(percent = 1) {
+      return Dimensions.get("window").width * percent;
+    },
+    ScreenHeight(percent = 1) {
+      return Dimensions.get("window").height * percent;
+    },
+  },
+
+  LimitAddToCart: 100,
+  ShowQuickCart: false, // show hide quick add to cart in product item
+
+  PostImage: {
+    small: "small",
+    medium: "medium",
+    medium_large: "medium_large",
+    large: "large",
+  },
+  Layout: {
+    card: 1,
+    twoColumn: 2,
+    simple: 3,
+    list: 4,
+    advance: 5,
+    threeColumn: 6,
+    horizon: 7,
+    twoColumnHigh: 8,
+    miniBanner: 9,
+  },
+  pagingLimit: 10,
+
+  fontText: {
+    size: 16,
+  },
+};
+
+export default Constants;
